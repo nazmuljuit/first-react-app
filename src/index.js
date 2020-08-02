@@ -2,6 +2,7 @@ import React from 'react';
 import ReactDOM from 'react-dom';
 import './index.css';
 import App from './App';
+import './assets/css/style.css';
 import registerServiceWorker from './registerServiceWorker';
 
 
@@ -23,7 +24,7 @@ class Hello extends React.Component {
 
         return(
 
-            <div>
+            <div className="name">
 
                 <h1 style={{color:"green"}}>{indentity.name}</h1>
                 <h3>{indentity.address}</h3>
