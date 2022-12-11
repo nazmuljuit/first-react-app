@@ -10,7 +10,7 @@ root.render(
   <div>
     <h1>{wlcome}</h1>
     <h3>{reactVersion}</h3>
-    <h5>{reactDomV}</h5>
+    <h5 className='headerFive'>{reactDomV}</h5>
   </div>
   
 );
