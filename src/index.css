@@ -1,8 +1,22 @@
-h3{
-    color: red;
+
+.card{
+
+    background-color: grey;
+    height: 120px;
+    width: 380px;
+    margin: 10px 20px;
+    text-align: center;
+    padding: 2px;
+    border-radius: 5px;
 }
 
-.headerFive{
-    color: brown;
-    background-color: blanchedalmond;
+.cardTItle{
+    color: beige;
+    font-style: italic;
+
+}
+
+.cardDescriptions{
+    color: bisque;
+    font-size: 16px;
 }
