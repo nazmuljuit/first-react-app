@@ -3,6 +3,7 @@ import ReactDOM from 'react-dom/client';
 import "./index.css";
 import Card from "./component/Card";
 
+
 const root = ReactDOM.createRoot(document.getElementById('root'));
 const wlcome = 'Welcome to first react app!';
 const reactVersion = 'React Version 18.2.0';
