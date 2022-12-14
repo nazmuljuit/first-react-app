@@ -1,23 +1,9 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import "./index.css";
-import Card from "./component/Card";
+import App from './App';
 
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
-const wlcome = 'Welcome to first react app!';
-const reactVersion = 'React Version 18.2.0';
-const reactDomV = 'React Dom Version 18.2.0';
-
-root.render(
-  <div>
-    <h1>{wlcome}</h1>
-    <h3>{reactVersion}</h3>
-    <h5 className='headerFive'>{reactDomV}</h5>
-    <Card />
-
-  </div>
-  
-);
+root.render(<App />);
 
 

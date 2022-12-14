@@ -1,3 +1,11 @@
+.headingDiv{
+
+    background-color: blanchedalmond;
+    text-align: center;
+    margin: 10px 10px;
+    padding: 3px 3px;
+}
+
 h1{
     color: blueviolet;
 }
@@ -8,5 +16,5 @@ h3{
 
 .headerFive{
     color: brown;
-    background-color: blanchedalmond;
+    
 }
