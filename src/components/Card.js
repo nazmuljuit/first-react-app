@@ -1,15 +1,16 @@
 
-const cardTitle = 'My Card';
-const cardDescriptions = 'It is my card. One of the best card....';
+//const cardTitle = 'My Card';
+//const cardDescriptions = 'It is my card. One of the best card....';
 
-function Card()
+function Card(props) 
 {
+	const {cardTitle,cardDescriptions} = props;
 
 
     return    <div className='card'>
-    <h2 className='cardTItle'>{cardTitle}</h2>
-    <p className='cardDescriptions'>{cardDescriptions}</p>
-    </div>
+    				<h2 className='cardTItle'>{cardTitle}</h2>
+    				<p className='cardDescriptions'>{cardDescriptions}</p>
+    		  </div>
 }
 
 export default Card;

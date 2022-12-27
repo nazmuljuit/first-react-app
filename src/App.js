@@ -15,7 +15,9 @@ function App()
             <h3>{reactVersion}</h3>
             <h5 className='headerFive'>{reactDomV}</h5>
         </div>
-    <Card />
+    <Card cardTitle="My First Card" cardDescriptions="It is my card. One of the best card...."/>
+    <Card cardTitle="My Second Card" cardDescriptions="It is my card. One of the best card...."/>
+    <Card cardTitle="My Third Card" cardDescriptions="It is my card. One of the best card...."/>
 
     </div>
 
